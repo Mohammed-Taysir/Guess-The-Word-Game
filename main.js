@@ -16,7 +16,28 @@ document.querySelector(".hint span").innerHTML = numOfHints;
 const hintButton = document.querySelector(".hint");
 
 
-const words = ["loop", "variable", "function", "iteration", "iterator", "class", "constructor", "static", "private", "public"];
+const words = [
+  "planet",
+  "silver",
+  "battle",
+  "jungle",
+  "magnet",
+  "singer",
+  "rocket",
+  "circle",
+  "marble",
+  "castle",
+  "modern",
+  "flight",
+  "danger",
+  "hunter",
+  "pencil",
+  "rabbit",
+  "guitar",
+  "window",
+  "school",
+  "jacket"
+];;
 
 const randomWord = words[Math.floor(Math.random() * words.length)];
 
@@ -61,7 +82,7 @@ function generateInputs() {
         })
     })
 }
-console.log(randomWord);
+
 
 checkButton.addEventListener("click", () => {
     let success = true;
