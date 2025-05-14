@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+<body>
+    <h1></h1>
+    <div class="game">
+        <div class="game-container">
+            <div class="game-area">
+                <div class="tries">
+                    
+                </div>
+               <div class="controls">
+                 <button class="check">Check</button>
+                 <button class="hint"><span></span> Hint</button>
+               </div>
+            </div>
+            <div class="game-instructions">
+                <h2>Key Colors</h2>
+                <div class="key-color">
+                    <div class="key in-place"></div>
+                    <div class="instruct">
+                        Letter Is Right And In Place
+                    </div>
+                </div>
+                <div class="key-color">
+                    <div class="key not-in-place"></div>
+                    <div class="instruct">
+                        Letter Is Right But Not In Place
+                    </div>
+                </div>
+                <div class="key-color">
+                    <div class="key wrong"></div>
+                    <div class="instruct">  
+                        Letter Is Wrong, Not Exists In Word
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src = "./main.js"></script>
+</body>
+</html>
